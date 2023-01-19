@@ -1,0 +1,248 @@
+:root {
+  /* Font */
+  --font-family-logo: 'Raleway', 'Montserrat', 'sans-serif';
+  --font-family-main: 'Roboto', 'Open Sans', 'sans-serif';
+  --font-weight-heading: 700;
+  /* Text colors */
+  --primary-brand-txt-cl: #4d5ae5;
+  --body-txt-cl: #434455;
+  --dark-txt-cl: #2e2f42;
+  --light-txt-cl: #f4f4fd;
+  --white-txt-cl: #ffffff;
+
+  /* Background colors */
+  --dark-bg-cl: #2e2f42;
+  --light-bg-cl: #f4f4fd;
+  --primary-brand-btn-bg-cl: #4d5ae5;
+  --accent-bg-cl: #e7e9fc;
+  --white-bg-cl: #ffffff;
+
+  /* Others */
+  --light-btn-bg-color: #f4f4fd;
+  --pressed-btn-state-bg: #404bbf;
+  --active-link-txt: #404bbf;
+}
+
+/* -------------------------- */
+/* -----------body----------- */
+/* -------------------------- */
+
+body {
+  font-family: var(--font-family-main);
+
+  color: var(--body-txt-cl);
+
+  background-color: var(--white-bg-cl);
+}
+
+/* -------------------------- */
+/* ---------buttons---------- */
+/* -------------------------- */
+.btn:hover,
+.btn:focus {
+  color: var(--white-txt-cl);
+  background-color: var(--pressed-btn-state-bg);
+}
+
+.btn {
+  cursor: pointer;
+
+  font-family: var(--font-family-main);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+
+  letter-spacing: 0.04em;
+}
+
+.hero-btn {
+  color: var(--white-txt-cl);
+  background-color: var(--primary-brand-btn-bg-cl);
+}
+
+.portfolio-btn {
+  color: var(--primary-brand-txt-cl);
+  background-color: var(--light-btn-bg-color);
+}
+
+/* -------------------------- */
+/* -----------link----------- */
+/* -------------------------- */
+.link:hover,
+.link:focus {
+  color: var(--active-link-txt);
+}
+
+.header-nav .link.current {
+  color: var(--active-link-txt);
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+/* -------------------------- */
+/* --------title (h2)-------- */
+/* -------------------------- */
+
+.section-title {
+  font-size: 36px;
+  line-height: 1.11;
+
+  letter-spacing: 0.02em;
+
+  color: var(--dark-txt-cl);
+}
+
+/* -------------------------- */
+/* -----------logo----------- */
+/* -------------------------- */
+.logo {
+  font-family: var(--font-family-logo);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+
+  color: var(--primary-brand-txt-cl);
+}
+
+.light-theme-logo {
+  color: var(--dark-txt-cl);
+}
+
+.dark-theme-logo {
+  color: var(--light-txt-cl);
+}
+
+/* -------------------------- */
+/* -------nav-section-------- */
+/* -------------------------- */
+
+.nav-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+
+  color: var(--dark-txt-cl);
+}
+
+.nav-contacts {
+  color: inherit;
+}
+
+.header {
+  background-color: var(--white-bg-cl);
+}
+
+/* -------------------------- */
+/* -------section-hero------- */
+/* -------------------------- */
+.hero-title {
+  font-size: 56px;
+  line-height: 1.07;
+
+  letter-spacing: 0.02em;
+
+  color: var(--white-txt-cl);
+}
+
+.hero {
+  background-color: var(--dark-bg-cl);
+}
+
+/* -------------------------- */
+/* -----section-benefits----- */
+/* -------------------------- */
+
+.benefits-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+
+  letter-spacing: 0.02em;
+
+  color: var(--dark-txt-cl);
+}
+
+.benefits-descr {
+  font-size: 16px;
+  line-height: 1.5;
+
+  letter-spacing: 0.02em;
+}
+
+/* ----------------------------- */
+/* -section "What are we doing"- */
+/* ----------------------------- */
+
+/* ----------------------------- */
+/* -----section "Our Team"------ */
+/* ----------------------------- */
+
+.team-member {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+
+  letter-spacing: 0.02em;
+
+  color: var(--dark-txt-cl);
+}
+
+.team-descr {
+  font-size: 16px;
+  line-height: 1.5;
+
+  letter-spacing: 0.02em;
+}
+
+.our-team {
+  background-color: var(--light-bg-cl);
+}
+/* -------------------------- */
+/* ---------footer----------- */
+/* -------------------------- */
+.logo-subtext {
+  font-family: var(--font-family-main);
+  font-size: 16px;
+  line-height: 1.5;
+
+  letter-spacing: 0.02em;
+
+  color: #d9d9d9;
+}
+
+.footer {
+  background-color: var(--dark-bg-cl);
+}
+/* !!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* -------------------------- */
+/* -------Portfolio---------- */
+/* -------------------------- */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+/* -------------------------- */
+/* ----section Filters------- */
+/* -------------------------- */
+
+.portfolio-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+
+  letter-spacing: 0.02em;
+
+  color: var(--dark-txt-cl);
+}
+
+.portfolio-text {
+  font-size: 16px;
+  line-height: 1.5;
+
+  letter-spacing: 0.02em;
+}
