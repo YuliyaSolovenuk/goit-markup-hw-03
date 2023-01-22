@@ -7,52 +7,66 @@
     <title>Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- fonts -->
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <!-- modern-normalize -->
+    <link
+      rel="stylesheet"
+      href="node_modules/modern-normalize/modern-normalize.css"
+    />
+    <!-- styles -->
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
   <body>
-    <!--header----------------------------------------->
+    <!--header----------------------------------->
     <header class="header">
-      <!-- navigation --------------------------------->
-      <nav class="header-nav">
-        <a class="logo link" href="index.html"
+      <div class="header-container container">
+        <a class="header-link logo link" href="index.html"
           >Web<span class="light-theme-logo">Studio</span></a
         >
-        <ul>
-          <li class="list">
-            <a class="nav-item link" href="index.html">Studio</a>
-          </li>
-          <li class="list">
-            <a class="nav-item link current" href="portfolio.html">Portfolio</a>
-          </li>
-          <li class="list"><a class="nav-item link" href="#">Contacts</a></li>
-        </ul>
-      </nav>
 
-      <!-- Contacts ---------------------------------->
-      <ul>
-        <li class="list">
-          <a class="nav-contacts link" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li class="list">
-          <a class="nav-contacts link" href="tel:+110001111111"
-            >+11 (000) 111-11-11</a
-          >
-        </li>
-      </ul>
+        <!-- navigation ------------------------------->
+        <nav class="header-nav">
+          <ul class="header-list">
+            <li class="list">
+              <a class="nav-item link" href="index.html">Studio</a>
+            </li>
+            <li class="list">
+              <a class="nav-item link current" href="portfolio.html"
+                >Portfolio</a
+              >
+            </li>
+            <li class="list">
+              <a class="nav-item link" href="#">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- Contacts --------------------------------->
+        <ul class="header-contacts">
+          <li class="list">
+            <a class="nav-contacts link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="list">
+            <a class="nav-contacts link" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
+        </ul>
+      </div>
     </header>
 
     <!--main container------------------------->
     <main>
       <!--section Filters----------------------->
       <section class="main-portfolio-section">
-        <h1 class="portfolio-title" hidden>Filters</h1>
+        <h1 class="visually-hidden">Filters</h1>
         <ul>
           <li class="list">
             <button class="portfolio-btn btn" type="button">All</button>
@@ -167,7 +181,6 @@
     </main>
 
     <!--footer------------------------------------>
-    <footer>
     <footer>
       <section class="footer">
         <a class="logo link" href="index.html"
